@@ -1360,10 +1360,10 @@ img {
 
   .header-bar {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: "toggle";
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "brand toggle";
     align-items: center;
-    justify-items: end;
+    justify-items: stretch;
     min-height: 52px;
     padding: 0.25rem 0;
     position: relative;
@@ -1418,7 +1418,12 @@ img {
   }
 
   .header-brand {
-    display: none;
+    grid-area: brand;
+    display: flex;
+  }
+
+  .logo-mark img {
+    width: 112px;
   }
 
   .nav-toggle {
