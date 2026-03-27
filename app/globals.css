@@ -1360,12 +1360,12 @@ img {
 
   .header-bar {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    grid-template-areas: "brand toggle";
+    grid-template-columns: 1fr;
+    grid-template-areas: "toggle";
     align-items: center;
-    gap: 0.75rem;
-    min-height: 62px;
-    padding: 0.4rem 0;
+    justify-items: end;
+    min-height: 52px;
+    padding: 0.25rem 0;
     position: relative;
   }
 
@@ -1387,9 +1387,10 @@ img {
     background: rgba(255, 255, 255, 0.97);
     box-shadow: 0 12px 34px rgba(11, 41, 80, 0.14);
     position: absolute;
-    top: calc(100% + 0.35rem);
+    top: calc(100% + 0.25rem);
+    left: 0;
     right: 0;
-    width: min(320px, 100%);
+    width: auto;
     z-index: 60;
   }
 
@@ -1417,7 +1418,7 @@ img {
   }
 
   .header-brand {
-    grid-area: brand;
+    display: none;
   }
 
   .nav-toggle {
@@ -1456,7 +1457,7 @@ img {
   .header-cta-mobile {
     display: inline-flex;
     margin-top: 0.35rem;
-    min-height: 40px;
+    min-height: 38px;
     width: 100%;
     letter-spacing: 0.11em;
   }
@@ -1549,20 +1550,13 @@ img {
 }
 
 @media (max-width: 720px) {
-  .logo-mark img {
-    width: 88px;
-  }
-
   .header-bar {
-    min-height: 56px;
-    padding: 0.35rem 0;
+    min-height: 48px;
+    padding: 0.2rem 0;
   }
 
   .site-nav {
-    left: 0;
-    right: 0;
-    width: auto;
-    padding: 0.5rem 0.7rem 0.7rem;
+    padding: 0.45rem 0.65rem 0.65rem;
   }
 
   .nav-link {
