@@ -24,9 +24,10 @@ export function SiteHeader() {
 
         <button
           type="button"
-          className="nav-toggle"
+          className={isMenuOpen ? "nav-toggle nav-toggle-open" : "nav-toggle"}
           aria-expanded={isMenuOpen}
           aria-controls="primary-nav"
+          aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
           onClick={() => setIsMenuOpen((previous) => !previous)}
         >
           <span className="nav-toggle-bars" aria-hidden="true" />
