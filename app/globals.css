@@ -95,6 +95,11 @@ img {
   flex-wrap: wrap;
 }
 
+.nav-toggle,
+.header-cta-mobile {
+  display: none;
+}
+
 .nav-link {
   padding: 0.25rem 0;
   font-family: var(--display);
@@ -1354,11 +1359,15 @@ img {
   }
 
   .header-bar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "brand toggle"
+      "nav nav";
+    align-items: center;
+    gap: 0.5rem 0.85rem;
+    min-height: auto;
+    padding: 0.5rem 0;
   }
 
   .footer-grid {
@@ -1368,11 +1377,77 @@ img {
   }
 
   .site-nav {
-    justify-content: flex-start;
+    grid-area: nav;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.35rem;
+    padding: 0.7rem;
+    border-radius: 16px;
+    border: 1px solid rgba(11, 41, 80, 0.12);
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 10px 30px rgba(11, 41, 80, 0.08);
+  }
+
+  .site-nav-open {
+    display: flex;
+  }
+
+  .nav-link {
+    padding: 0.58rem 0.25rem;
+    font-size: 0.74rem;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid rgba(11, 41, 80, 0.1);
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .nav-link:hover,
+  .nav-link-active {
+    border-color: rgba(11, 41, 80, 0.48);
+    background: transparent;
   }
 
   .header-cta {
-    justify-self: start;
+    display: none;
+  }
+
+  .header-brand {
+    grid-area: brand;
+  }
+
+  .nav-toggle {
+    grid-area: toggle;
+    justify-self: end;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 40px;
+    padding: 0.5rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid rgba(11, 41, 80, 0.18);
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--primary);
+    font-family: var(--display);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .nav-toggle-bars {
+    width: 14px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 999px;
+    box-shadow: 0 -5px 0 currentColor, 0 5px 0 currentColor;
+  }
+
+  .header-cta-mobile {
+    display: inline-flex;
+    margin-top: 0.25rem;
+    min-height: 42px;
+    width: 100%;
   }
 
   .home-about-grid,
@@ -1464,7 +1539,33 @@ img {
 
 @media (max-width: 720px) {
   .logo-mark img {
-    width: 120px;
+    width: 96px;
+  }
+
+  .header-bar {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "brand"
+      "nav";
+    gap: 0.55rem;
+    padding: 0.55rem 0 0.6rem;
+  }
+
+  .site-nav {
+    gap: 0.2rem;
+    padding: 0.6rem;
+  }
+
+  .nav-link {
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+    padding: 0.52rem 0.2rem;
+  }
+
+  .nav-toggle {
+    min-height: 36px;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.62rem;
   }
 
   .container {
