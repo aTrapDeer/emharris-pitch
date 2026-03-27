@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>E.M. Harris Construction Company | Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700;800;900&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-tint": "#455b9d",
+              "on-tertiary-container": "#f8504f",
+              "error": "#ba1a1a",
+              "background": "#fbf9f8",
+              "secondary-container": "#e1dfdf",
+              "surface-dim": "#dbdad9",
+              "secondary-fixed": "#e4e2e2",
+              "on-surface": "#1b1c1c",
+              "tertiary": "#2b0002",
+              "secondary": "#5e5e5e",
+              "surface-container": "#efeded",
+              "on-tertiary-fixed-variant": "#930015",
+              "on-tertiary-fixed": "#410004",
+              "secondary-fixed-dim": "#c7c6c6",
+              "inverse-on-surface": "#f2f0f0",
+              "on-primary-fixed": "#00174b",
+              "on-surface-variant": "#444650",
+              "on-secondary-container": "#626262",
+              "on-primary": "#ffffff",
+              "on-primary-container": "#748acf",
+              "surface-container-highest": "#e4e2e2",
+              "on-tertiary": "#ffffff",
+              "surface-container-low": "#f5f3f3",
+              "primary-container": "#002060",
+              "surface-container-lowest": "#ffffff",
+              "surface-bright": "#fbf9f8",
+              "on-error-container": "#93000a",
+              "on-secondary-fixed-variant": "#464747",
+              "inverse-primary": "#b4c5ff",
+              "tertiary-container": "#530007",
+              "primary-fixed-dim": "#b4c5ff",
+              "inverse-surface": "#303031",
+              "on-error": "#ffffff",
+              "on-primary-fixed-variant": "#2c4383",
+              "on-background": "#1b1c1c",
+              "surface-container-high": "#e9e8e7",
+              "outline-variant": "#c5c6d2",
+              "primary": "#000d33",
+              "surface": "#fbf9f8",
+              "on-secondary-fixed": "#1b1c1c",
+              "primary-fixed": "#dbe1ff",
+              "tertiary-fixed-dim": "#ffb3ae",
+              "on-secondary": "#ffffff",
+              "outline": "#757681",
+              "surface-variant": "#e4e2e2",
+              "tertiary-fixed": "#ffdad7",
+              "error-container": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Public Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1.5rem;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1b1c1c;
+            background-color: #fbf9f8;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-[#000d33]/80 backdrop-blur-md shadow-[0_20px_40px_rgba(0,13,51,0.06)]">
+<div class="flex justify-between items-center px-6 md:px-12 py-6 max-w-[1920px] mx-auto">
+<div class="text-2xl font-black tracking-tighter text-[#000d33] dark:text-white">
+                E.M. Harris
+            </div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-['Public_Sans'] tracking-tight font-bold text-sm uppercase text-[#000d33] dark:text-white border-b-2 border-[#002060] pb-1" href="#">Home</a>
+<a class="font-['Public_Sans'] tracking-tight font-bold text-sm uppercase text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors" href="#">About</a>
+<a class="font-['Public_Sans'] tracking-tight font-bold text-sm uppercase text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors" href="#">Projects</a>
+<a class="font-['Public_Sans'] tracking-tight font-bold text-sm uppercase text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors" href="#">News</a>
+<a class="font-['Public_Sans'] tracking-tight font-bold text-sm uppercase text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-primary hover:bg-primary-container text-on-primary px-6 py-2 rounded-md font-['Public_Sans'] font-bold text-xs uppercase tracking-widest scale-95 active:scale-90 transition-transform">
+                Get a Quote
+            </button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover brightness-50" data-alt="Cinematic wide shot of a large-scale construction site at dusk with industrial cranes against a deep blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0xi92pjfPXqzxlPEsIbbRoIXI4y58NuZxvpiMhJJbkt37yktnFtaHYIPLwmCtPMFqfai7ZclYyBYWULVZp7AymLnPn3C-oFWNANDCwauMS8GJaDCaaGnPJUIBactdIDnBWC9lzphl7g85PHfuzT9dz1_EI_5Q4RBCWn7sHUuAOAIfhRPrRm_ml6trtuR2k7dehpTD0JjgG3PySTkcdxXeonT_7ko40Rscggv-ddGWkYcj7i4IIzSJcEbJ90GqknVoinFl5fm4I_A"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+<div class="max-w-3xl">
+<span class="inline-block text-primary-fixed font-headline font-bold text-sm uppercase tracking-[0.2em] mb-6">Established 1989</span>
+<h1 class="text-6xl md:text-8xl font-headline font-black text-white leading-[1.1] tracking-tight mb-8">
+                        Preserving the Past.<br/>
+<span class="text-primary-fixed">Building the Future.</span>
+</h1>
+<p class="text-white/80 text-lg md:text-xl font-body max-w-xl leading-relaxed mb-10">
+                        A legacy of structural integrity and architectural excellence. E.M. Harris delivers sophisticated construction management for the next generation of urban landscapes.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-white text-primary px-8 py-4 font-headline font-bold uppercase text-sm tracking-widest hover:bg-primary-fixed transition-colors">
+                            Explore Our Projects
+                        </button>
+<button class="border border-white/30 text-white backdrop-blur-sm px-8 py-4 font-headline font-bold uppercase text-sm tracking-widest hover:bg-white/10 transition-colors">
+                            Our Story
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section (Asymmetric Editorial Layout) -->
+<section class="py-24 bg-surface md:py-40">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 relative">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Minimalist architectural detail of a modern concrete building with sharp shadows and blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChR4yyUv1fDx_7OpkLLf55SjyZ1oXNkkx5VADX6s2kXTgRN5Nr_pjDaCr18ABvfn43wQEvqWkWk4eWmGnmLx9n5gPGnCYKjP6KYTH4EE6lfPZB3xgQnJjGuK8PaiOPGJCX7NiHbotCNYfzGc2nuzDWq2OOV6nuZFgvzjRc7k4hCa6YViLALAwxCWvK3mLGQAZFIgp-049dMAg5AfUE32_c3id6uxXVZMvdiyOv6i8Yop7wGw9myXt6gwOEu807Zkq9J2LeJhPc2U4"/>
+</div>
+<div class="absolute -bottom-12 -right-12 hidden lg:block w-72 h-72 bg-primary p-8">
+<div class="border border-white/20 h-full w-full flex flex-col justify-center items-center text-center">
+<span class="text-5xl font-black text-white mb-2">35+</span>
+<span class="text-white/60 text-xs font-headline uppercase tracking-widest">Years of Excellence</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 lg:pl-12">
+<h2 class="text-4xl font-headline font-bold text-primary mb-6">Full-Service General Contracting</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-8">
+                            Since 1989, E.M. Harris Construction Company has stood as a pillar of reliability in the construction industry. We don't just build structures; we cultivate environments that honor their history while embracing modern functionality.
+                        </p>
+<div class="space-y-6">
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="architecture">architecture</span>
+<div>
+<h4 class="font-headline font-bold text-primary uppercase text-sm tracking-wider">Precision Planning</h4>
+<p class="text-on-surface-variant text-sm">Every project begins with a blueprint for longevity and efficiency.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="handyman">handyman</span>
+<div>
+<h4 class="font-headline font-bold text-primary uppercase text-sm tracking-wider">Expert Craftsmanship</h4>
+<p class="text-on-surface-variant text-sm">Specialized teams for new builds and sensitive historic renovations.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section (Tonal Shift) -->
+<section class="bg-surface-container-low py-24">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20">
+<h2 class="text-sm font-headline font-bold text-primary uppercase tracking-[0.3em] mb-4">Our Core Services</h2>
+<h3 class="text-4xl md:text-5xl font-headline font-black text-primary">Mastering the Build</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-0 bg-surface shadow-2xl overflow-hidden">
+<!-- New Construction -->
+<div class="group relative aspect-square md:aspect-auto md:h-[600px] overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 brightness-75" data-alt="Modern steel frame of a skyscraper being built under a bright clear sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgrUbY5xPulJZt1OrYkLOX44CjBWnXTrNFrbQJ6h7eA6tp3W7NrbgSV2fkTef3cr4rwwLsZ6jrvGWyizLIxSxM3mX_HBd8U-0ZpNf2qI_G-5XvXRy1x_WIPMmtqpEPIGrB8PLt4S_9DNxxF0_xMKrW9ET02wcvS1ajAedar5Yol-CVRZoVJAaoqORfDpQdeY5S87TSh0njbEcS1ryYCRN-Nh-kTv1nGtz_LyRdA4VeOh8NbZ7lEbBPVsP_MDYslTic7JVi7DeDOtk"/>
+<div class="absolute inset-0 bg-primary/40 group-hover:bg-primary/20 transition-colors"></div>
+<div class="absolute bottom-0 left-0 p-10 w-full">
+<h4 class="text-white text-2xl font-headline font-bold mb-4">New Construction</h4>
+<p class="text-white/80 text-sm leading-relaxed mb-6 opacity-0 group-hover:opacity-100 transition-opacity">Ground-up developments tailored to modern demands and future-proof standards.</p>
+<span class="material-symbols-outlined text-white text-3xl" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<!-- General Renovation -->
+<div class="group relative aspect-square md:aspect-auto md:h-[600px] overflow-hidden border-x border-outline-variant/10">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 brightness-75" data-alt="Close-up of high-end interior renovation with modern finishes and bright lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYKsh1_rPLCxU4TOy-QCAK4fuMNeAM3K80mLzMGEh3LRC98E8n97NEsCfXWBZDOfqTxD5M2wfO8hl61tA90W1_he-ZiA2BuoeVTwTWbhbtVpDWEC0jdA5SN-GnbJKQfZPMuNQTJIMzv5EY-TeN9rf2Z12PQYDhe53hKBfkomUn4vc-AAHgkCmsEooeQguF0MLpytp0TAJunyyWTd0_1NV1SrndxpMHCMBT_v2IJP4oLgHFsj6QJNIuNhW4MJPIkSiGTmFKJ1E6Kuw"/>
+<div class="absolute inset-0 bg-primary/40 group-hover:bg-primary/20 transition-colors"></div>
+<div class="absolute bottom-0 left-0 p-10 w-full">
+<h4 class="text-white text-2xl font-headline font-bold mb-4">General Renovation</h4>
+<p class="text-white/80 text-sm leading-relaxed mb-6 opacity-0 group-hover:opacity-100 transition-opacity">Transforming existing spaces into high-performance contemporary environments.</p>
+<span class="material-symbols-outlined text-white text-3xl" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<!-- Historic Renovation -->
+<div class="group relative aspect-square md:aspect-auto md:h-[600px] overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 brightness-75" data-alt="Intricate historic brickwork and restored windows on a heritage building" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUo8NSvYAajpsNHZqUJYcvkPKbs9GFTw96avE1ZAuxlXGRQw6fy2CkMOQl45uZsvzjIsjHeABcxJ6O1syFYlq0oqqO1NRwAINNCRM1PJXKNsPQ6GplCUleLl0ycYtEFf1rZbFLDsI881hOFnL1MDHjBetKsaM4xly3nFjQuo6qLR6HnNPxPzCON89M9rgTdhCMxJCb5ocH3LAAyTtKcus9mC0-gLSZ0VsfQ_TkgeIvtT46W5uAYdm-mdNslUkxEuJIL7bx_bFw_iA"/>
+<div class="absolute inset-0 bg-primary/40 group-hover:bg-primary/20 transition-colors"></div>
+<div class="absolute bottom-0 left-0 p-10 w-full">
+<h4 class="text-white text-2xl font-headline font-bold mb-4">Historic Renovation</h4>
+<p class="text-white/80 text-sm leading-relaxed mb-6 opacity-0 group-hover:opacity-100 transition-opacity">Preserving architectural heritage with specialized techniques and authentic materials.</p>
+<span class="material-symbols-outlined text-white text-3xl" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Sectors (Bento Grid) -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-xl">
+<h2 class="text-sm font-headline font-bold text-primary uppercase tracking-[0.3em] mb-4">Expertise Across Sectors</h2>
+<h3 class="text-4xl font-headline font-black text-primary leading-tight">Diversified Portfolio of Impact.</h3>
+</div>
+<p class="text-on-surface-variant max-w-xs text-sm">We specialize in various sectors, bringing the same level of precision to every project type.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 h-auto md:h-[800px]">
+<div class="md:col-span-2 md:row-span-1 bg-surface-container overflow-hidden group relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern corporate office lobby with glass walls and minimalist furniture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHC-TIHDl-Vph9Gh9tKMniHW695F0NuugAeODY0A8I3IQG2uaOaEVAHUY8oGe7ZtIA4OB-joaIU-Oa8Rp2tgKHNxmkjukeiTLNe-K-ZLGWsueE8Xi0ZIasL_xNdtKLNWxAE8zny7-ItyQM14AsPmzks-0SKhdtHQGlZucH5NZLMo3U0hFTtYVln58QZGoJ5DskizzIV7cVrk0Jc74fVNBmWVw9lDAeyx_lUzIsDMZjEJBP23rMY8rf3eUwdGb0Dkso7BBk1ecSuGY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent p-8 flex items-end">
+<span class="text-white font-headline font-bold text-xl uppercase tracking-widest">Commercial</span>
+</div>
+</div>
+<div class="md:col-span-1 md:row-span-1 bg-surface-container-high overflow-hidden group relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Elegant single-family home with modern architectural lines and landscaping" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBR3J04Dx7CtZuKhuSNfLzc7G1_y_EcB6oXNMgh6tG-WLpmZUIFjqHq30HkF6XsRbDbK6DpOxC3RWblZud9wwHbVXWFwJzO4Zrz1i-6olq2n5fH1PZN0Qk2h8sILxPaIhDDQpe4TZXDL7TDUd4R3l60164yySiycQu0zneylSVlpU9FZSjgTo6muN8cfkAgmgawNLq3hWLS0ItKeamotD_xyV0G-Ltkh8F0nc7R8pOOi9gF-Rt7uMPA91YGQYsx7ezWREfPUI4WrJc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent p-6 flex items-end">
+<span class="text-white font-headline font-bold text-lg uppercase tracking-widest">Single-family</span>
+</div>
+</div>
+<div class="md:col-span-1 md:row-span-2 bg-surface-container overflow-hidden group relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Large multi-family apartment complex with contemporary design and balconies" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjPySAjhcW54xulqu8mJUGq6ZTqY3nlvFXetu5N2kJRSCKXuHOxCF9iM9gctPN1wrAJnhUAHdhIFxqH8VLWTeH16JypQaZMBRGC31wbYJSll4K6_9kJZwaXFS8rvoX7six-PfVjo60Z-QK4Y1Crqdq2vhzCDOC5-lzNkNtt4HVrIS5GlqMtGZICDh7kSqhwzwPYj-zN_VRV2hH51384Hcq4K0BI59GJrl2lMNwFqUj8EG5YcBHWEWRLkFcn5Nzlh7PEVuPhGjOXf0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent p-6 flex items-end">
+<span class="text-white font-headline font-bold text-lg uppercase tracking-widest rotate-180 [writing-mode:vertical-lr]">Multi-family</span>
+</div>
+</div>
+<div class="md:col-span-1 md:row-span-1 bg-primary p-8 flex flex-col justify-center">
+<span class="material-symbols-outlined text-primary-fixed text-4xl mb-4" data-icon="school">school</span>
+<h4 class="text-white font-headline font-bold text-xl uppercase tracking-widest mb-2">Education</h4>
+<p class="text-white/60 text-xs">Building spaces for future minds.</p>
+</div>
+<div class="md:col-span-2 md:row-span-1 bg-surface-container-highest overflow-hidden group relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern non-profit community center with welcoming open spaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB80BAuzsZIWaDYsgaPoayQuYCuKZUGjP-alODYeVf0ZnJI_rHddrRJVZG4tE9MZ3BpnHYDkdlE_dMzLNoGbCvS1SvJQgVg8QSQwYzMGb0MYyFRSDvYsVTFLPyb9RH8RdHq6NVBvAwMqeJVbAoycnklsS0EH0l-BhIE5yBuJByWwPBUtlmMd6TWGScz24Szv-wgXMkK9FcAacaM48iXW5laTMmcLNdnhrQa5_jXATIhsIfsjXyffPDI8-Habnlh7ooUpahb9X--564"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent p-8 flex items-end">
+<span class="text-white font-headline font-bold text-xl uppercase tracking-widest">Non-profit</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-6">
+<div class="bg-primary p-12 md:p-24 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-1/2 h-full opacity-10">
+<img class="w-full h-full object-cover" data-alt="Blueprints and architectural drawings on a table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmBmH4AOMu5kO4P_9ntK9Ele_SxLZDqgZ5KY8ElPh1HoLwkI08V_hvCleOVIaJmQ8UfAxvmxP2FFyd74k67AqX4hreahkGy1FumtQU43v_RfMA6TMRyQKG9IJk2eB6Di4jb0YsmYE7aeOE896U3CTn3ASYERISjETAPUQThrs9ndAOBbAfjqttfLnHsitjlpDp8tJ-Je_alMUT3KG-bxkNmyBmMoC7PdfqlDHsxHQ3-eCbCMbj05QMQBjUpIYnsnBmLGipu6m-bJ8"/>
+</div>
+<div class="relative z-10 max-w-2xl">
+<h2 class="text-4xl md:text-6xl font-headline font-black text-white mb-8">Ready to Build Your Legacy?</h2>
+<p class="text-primary-fixed text-lg mb-10 leading-relaxed">Let's discuss how E.M. Harris can bring structural integrity and superior management to your next project.</p>
+<button class="bg-white text-primary px-10 py-5 font-headline font-bold uppercase text-sm tracking-widest hover:bg-primary-fixed transition-colors">
+                            Contact Our Team
+                        </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#fbf9f8] dark:bg-[#000d33] w-full border-t border-[#e4e2e2]/30">
+<div class="flex flex-col md:flex-row justify-between items-center px-6 md:px-12 py-16 w-full max-w-[1920px] mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="text-lg font-bold text-[#000d33] dark:text-white mb-2">E.M. Harris</div>
+<p class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500">Construction Company</p>
+</div>
+<div class="flex flex-col md:flex-row items-center gap-8 mb-8 md:mb-0">
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="tel:314.436.4426">314.436.4426</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">LinkedIn</a>
+</div>
+<div class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 text-center md:text-right">
+                ©2025 E.M. Harris Construction Company. All rights reserved.
+            </div>
+</div>
+</footer>
+</body></html>

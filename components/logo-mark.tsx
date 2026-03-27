@@ -11,8 +11,8 @@ export function LogoMark({ priority = false }: LogoMarkProps) {
       <Image
         src="/images/em-harris-logo.jpg"
         alt="E.M. Harris Construction logo"
-        width={140}
-        height={70}
+        width={100}
+        height={50}
         priority={priority}
       />
     </Link>
