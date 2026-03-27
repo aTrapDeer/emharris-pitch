@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700;800;900&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-tint": "#455b9d",
+              "on-tertiary-container": "#f8504f",
+              "error": "#ba1a1a",
+              "background": "#fbf9f8",
+              "secondary-container": "#e1dfdf",
+              "surface-dim": "#dbdad9",
+              "secondary-fixed": "#e4e2e2",
+              "on-surface": "#1b1c1c",
+              "tertiary": "#2b0002",
+              "secondary": "#5e5e5e",
+              "surface-container": "#efeded",
+              "on-tertiary-fixed-variant": "#930015",
+              "on-tertiary-fixed": "#410004",
+              "secondary-fixed-dim": "#c7c6c6",
+              "inverse-on-surface": "#f2f0f0",
+              "on-primary-fixed": "#00174b",
+              "on-surface-variant": "#444650",
+              "on-secondary-container": "#626262",
+              "on-primary": "#ffffff",
+              "on-primary-container": "#748acf",
+              "surface-container-highest": "#e4e2e2",
+              "on-tertiary": "#ffffff",
+              "surface-container-low": "#f5f3f3",
+              "primary-container": "#002060",
+              "surface-container-lowest": "#ffffff",
+              "surface-bright": "#fbf9f8",
+              "on-error-container": "#93000a",
+              "on-secondary-fixed-variant": "#464747",
+              "inverse-primary": "#b4c5ff",
+              "tertiary-container": "#530007",
+              "primary-fixed-dim": "#b4c5ff",
+              "inverse-surface": "#303031",
+              "on-error": "#ffffff",
+              "on-primary-fixed-variant": "#2c4383",
+              "on-background": "#1b1c1c",
+              "surface-container-high": "#e9e8e7",
+              "outline-variant": "#c5c6d2",
+              "primary": "#000d33",
+              "surface": "#fbf9f8",
+              "on-secondary-fixed": "#1b1c1c",
+              "primary-fixed": "#dbe1ff",
+              "tertiary-fixed-dim": "#ffb3ae",
+              "on-secondary": "#ffffff",
+              "outline": "#757681",
+              "surface-variant": "#e4e2e2",
+              "tertiary-fixed": "#ffdad7",
+              "error-container": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Public Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 20px 40px rgba(0, 13, 51, 0.06);
+        }
+        .glass-nav {
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-primary">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-[#000d33]/80 backdrop-blur-md shadow-[0_20px_40px_rgba(0,13,51,0.06)]">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
+<div class="text-2xl font-black tracking-tighter text-[#000d33] dark:text-white font-headline">
+                E.M. Harris
+            </div>
+<div class="hidden md:flex items-center gap-12">
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors font-headline tracking-tight font-bold text-sm uppercase" href="#">Home</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors font-headline tracking-tight font-bold text-sm uppercase" href="#">About</a>
+<a class="text-[#000d33] dark:text-white border-b-2 border-[#002060] pb-1 font-headline tracking-tight font-bold text-sm uppercase" href="#">Projects</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors font-headline tracking-tight font-bold text-sm uppercase" href="#">News</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors font-headline tracking-tight font-bold text-sm uppercase" href="#">Contact</a>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-lg font-headline font-bold text-xs uppercase tracking-widest scale-95 active:scale-90 transition-transform">
+                Get a Quote
+            </button>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<header class="px-12 mb-24 max-w-[1920px] mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-8">
+<div class="max-w-2xl">
+<span class="text-primary font-headline font-bold text-xs uppercase tracking-[0.2em] mb-4 block">Our Portfolio</span>
+<h1 class="text-6xl md:text-8xl font-black font-headline text-primary tracking-tighter leading-[0.9] mb-8">
+                        Structural <br/>Integrity.
+                    </h1>
+<p class="text-lg text-on-surface-variant max-w-md border-l-2 border-primary-fixed-dim pl-6">
+                        From historic restorations to modern multi-family complexes, we build the foundations of tomorrow.
+                    </p>
+</div>
+<!-- Filter Component -->
+<div class="flex flex-wrap gap-3">
+<button class="px-5 py-2 rounded-full bg-primary text-on-primary font-label text-xs font-semibold uppercase tracking-wider transition-all">All Projects</button>
+<button class="px-5 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-container-highest font-label text-xs font-semibold uppercase tracking-wider transition-all">Commercial</button>
+<button class="px-5 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-container-highest font-label text-xs font-semibold uppercase tracking-wider transition-all">Multi-family</button>
+<button class="px-5 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-container-highest font-label text-xs font-semibold uppercase tracking-wider transition-all">Historic Renovation</button>
+</div>
+</div>
+</header>
+<!-- Project Bento Grid -->
+<section class="px-12 pb-32 max-w-[1920px] mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Featured Card 1: Large Asymmetric -->
+<div class="md:col-span-8 group cursor-pointer overflow-hidden">
+<div class="relative aspect-[16/9] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Modern geometric glass and steel office building under a clear blue sky with sharp architectural angles and deep shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4ruhqlaZ43OtyuZqW-2rVEJ4W0s1flFX-oOpNk5Iml377cSg4mOsp27N2s-1WKt2fs7pV1nPDGxyy7Bwr3jPEwMTAZHXz50B3CAxa6chJ_31v29ppXVinmtg6jDTFMT_Xb1lXnHnppKEK_Qk1yE3n-GBKLvINnxfxrQaK_bUftsM6fUpuPTVpgDwMf-w2iL1jWbvfRfswCZso4wUrsR5gqQ3zmv7-QNqgLzm3Sou_mZc23ycnBB-He670098xxX3dvCNxPgdZTIo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-12">
+<span class="text-white font-headline font-bold text-xs uppercase tracking-widest">View Case Study</span>
+</div>
+</div>
+<div class="mt-6">
+<div class="flex items-center gap-4 mb-2">
+<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-on-tertiary-container bg-tertiary-fixed px-2 py-0.5">Featured</span>
+<span class="text-xs font-label text-secondary uppercase tracking-widest">Commercial • 2024</span>
+</div>
+<h3 class="text-3xl font-black font-headline text-primary tracking-tight">The Meridian Corporate Center</h3>
+</div>
+</div>
+<!-- Card 2: Multi-family -->
+<div class="md:col-span-4 group cursor-pointer">
+<div class="relative aspect-[4/5] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Luxury multi-family residential complex with modern balconies and warm evening lighting through large windows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD15FuqVWCcSR36U-1tao6bScJOtMNcbDgpPBSX3BZSc77e29CM6cpQLqivPznzI_msKDk_gQb6bvyNNkxUC2_J7cKpZsISoZndSmv5wNEQl6tP7tm-HjNti58rXRt_Y46_ZeYs1gSEa5tYPkGFneUL1dSnZ9BkhMBASUCvDjz77tsoUVmPp4mlivrw1usr57P7ULkgaoUcr8iVkr-3t4DrtkiVX4WVR8x_OG7RRcuKXd6XNwo2PssGxCfKDUH14iIAdsaml6g2RG8"/>
+</div>
+<div class="mt-6">
+<span class="text-xs font-label text-secondary uppercase tracking-widest mb-2 block">Multi-family • 2023</span>
+<h3 class="text-2xl font-black font-headline text-primary tracking-tight">Southside Residences</h3>
+</div>
+</div>
+<!-- Card 3: Historic -->
+<div class="md:col-span-4 group cursor-pointer">
+<div class="relative aspect-[1/1] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Detailed restoration of a classic red brick facade with ornate cornices and modern industrial windows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVUHW9wC70lzdh6e9AeuUMcKkYj8jr2XQF_7c0nmG9e4Vb_ohaSB_a0E8suY0p28Z09fULPHaNI_QnJyuP2ycD050qCKun3-O7Vp0_bmEHwEWwuG5V1N12JlbOHyNHgGgHCm8OMIzXlpYTFa49t7ehY_TkboJT9j12IgUvoqlcyPH62P4zZ0DrcNvzZ3SxRzyJIyXWcdlSZ3xtOUHBTcPeRTfalHRlyt7GZg-uU8GyX5siQF2fIBWaeKO30W-wgSE7LBrSh5qxids"/>
+</div>
+<div class="mt-6">
+<span class="text-xs font-label text-secondary uppercase tracking-widest mb-2 block">Historic Renovation • 2023</span>
+<h3 class="text-2xl font-black font-headline text-primary tracking-tight">Historic Post Office Revitalization</h3>
+</div>
+</div>
+<!-- Card 4: Construction Phase (Asymmetric placement) -->
+<div class="md:col-span-8 group cursor-pointer bg-surface-container-low p-1">
+<div class="relative aspect-[21/9] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Active construction site with heavy machinery and structural framing against a dramatic sunset sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3qJOG8RNpw71VL59lXkxYMaZCtXoRnbmRtVUhur88YG7bgMznDa8Rzm-Jo-XjrArEC-xiaE19NZVuHHMMRQbTa7ueba0xUYSEts-q2pNy8HTkE2a17xCxSLA6e13ycxKLSPM0D6EQbQaKpTpHtr66UEHHIDbEL29h1Z5m5g5135IKNx9xuuPeztO7pWY2GxFp6PqOr9dyB_0Hk0dYSuQ86aHxyS_P22u4UEgC7xKmQTbvz6Wr1KI7UXHx4bZxBwYuoGC5pUijZNE"/>
+<div class="absolute top-8 left-8 bg-white/90 glass-nav px-4 py-2 editorial-shadow">
+<span class="text-[10px] font-black font-headline uppercase tracking-widest text-primary">Under Construction</span>
+</div>
+</div>
+<div class="mt-6 px-4 pb-4">
+<span class="text-xs font-label text-secondary uppercase tracking-widest mb-2 block">Mixed-Use • 2025 Completion</span>
+<h3 class="text-2xl font-black font-headline text-primary tracking-tight">The Gateway Lofts</h3>
+</div>
+</div>
+<!-- Card 5: Modern Grid -->
+<div class="md:col-span-6 group cursor-pointer">
+<div class="relative aspect-[3/2] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Minimalist interior of a newly constructed high-end commercial space with polished concrete floors and large glass walls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALooQy1RwQ4fc52ZPl6k792ibO9qSVXHddyC6LOepVpFiXgkZ_vGC8DRGNr2f4WRUwUnA-kg2w_CVH6BDQVSGOYPG3KaMYQGyqd7osV6xM4BGvWVRoh2ZGiVeq23o7YlsbJEgHwT_9F-cUJ4CvcsyOPrwBZOWJ2qGK4Sj-3XZf0NmEIfG2VqwmxBFbZN3xdbPVPzP7oM0zOBMaEZM0cVhnMpiDUmNBMi4Ux7WtVQDawosM_BwLacfRtrlDn-LpKsejRRf37GT8Onk"/>
+</div>
+<div class="mt-6">
+<span class="text-xs font-label text-secondary uppercase tracking-widest mb-2 block">Commercial • 2022</span>
+<h3 class="text-2xl font-black font-headline text-primary tracking-tight">Apex Tech Campus</h3>
+</div>
+</div>
+<!-- Card 6: Small Historic -->
+<div class="md:col-span-6 group cursor-pointer">
+<div class="relative aspect-[3/2] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="European style heritage building restoration focusing on the intersection of old stone and modern steel beams" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvvP-250TpBRQ8_l9q8NbfO_fdU1xIRXy2gIM_DAbPHDZ6jXkQ9iPn86SXy1aaYOgUSR1e9Ckvupgp7KZu3WkyQ9iYfL4IOt-DtpFllj-bnUbCKInxCULB2tFis1ba1TOPiY6_eh0AKnXY-zhD6smPyfbaRcm2x3FCkL0Vb39g3PjZJTnnd7g5jtaQnYbHo4zV2T5n_s7Dpwbi892Klh4Frj1PYP23MRBam1Oi8dWMP418F-Vs53PTimQiJOZBElck571PNhtzqhQ"/>
+</div>
+<div class="mt-6">
+<span class="text-xs font-label text-secondary uppercase tracking-widest mb-2 block">Historic Renovation • 2021</span>
+<h3 class="text-2xl font-black font-headline text-primary tracking-tight">Grand Theatre Restoration</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section with Tonal Layering -->
+<section class="bg-surface-container-low py-32 px-12">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-5xl font-black font-headline text-primary tracking-tighter mb-8 uppercase">Start Your Next Landmark</h2>
+<p class="text-xl text-on-surface-variant mb-12 font-body max-w-2xl mx-auto">
+                    We bring decades of expertise to every blueprint. Let's discuss how we can build your future together.
+                </p>
+<button class="bg-primary text-on-primary px-12 py-5 rounded-lg font-headline font-bold text-sm uppercase tracking-[0.2em] shadow-lg hover:shadow-primary/20 transition-all active:scale-95">
+                    Contact Our Project Leads
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-[#e4e2e2]/30 bg-[#fbf9f8] dark:bg-[#000d33]">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full max-w-[1920px] mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="text-lg font-bold text-[#000d33] dark:text-white font-headline mb-2 uppercase">E.M. Harris</div>
+<p class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500">©2025 E.M. Harris Construction Company. All rights reserved.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="tel:314.436.4426">314.436.4426</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">LinkedIn</a>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact | E.M. Harris Construction Company</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700;800;900&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-tint": "#455b9d",
+                        "on-tertiary-container": "#f8504f",
+                        "error": "#ba1a1a",
+                        "background": "#fbf9f8",
+                        "secondary-container": "#e1dfdf",
+                        "surface-dim": "#dbdad9",
+                        "secondary-fixed": "#e4e2e2",
+                        "on-surface": "#1b1c1c",
+                        "tertiary": "#2b0002",
+                        "secondary": "#5e5e5e",
+                        "surface-container": "#efeded",
+                        "on-tertiary-fixed-variant": "#930015",
+                        "on-tertiary-fixed": "#410004",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "inverse-on-surface": "#f2f0f0",
+                        "on-primary-fixed": "#00174b",
+                        "on-surface-variant": "#444650",
+                        "on-secondary-container": "#626262",
+                        "on-primary": "#ffffff",
+                        "on-primary-container": "#748acf",
+                        "surface-container-highest": "#e4e2e2",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-low": "#f5f3f3",
+                        "primary-container": "#002060",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-bright": "#fbf9f8",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#464747",
+                        "inverse-primary": "#b4c5ff",
+                        "tertiary-container": "#530007",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "inverse-surface": "#303031",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#2c4383",
+                        "on-background": "#1b1c1c",
+                        "surface-container-high": "#e9e8e7",
+                        "outline-variant": "#c5c6d2",
+                        "primary": "#000d33",
+                        "surface": "#fbf9f8",
+                        "on-secondary-fixed": "#1b1c1c",
+                        "primary-fixed": "#dbe1ff",
+                        "tertiary-fixed-dim": "#ffb3ae",
+                        "on-secondary": "#ffffff",
+                        "outline": "#757681",
+                        "surface-variant": "#e4e2e2",
+                        "tertiary-fixed": "#ffdad7",
+                        "error-container": "#ffdad6"
+                    },
+                    fontFamily: {
+                        "headline": ["Public Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .bg-blueprint {
+            background-image: radial-gradient(circle at 2px 2px, rgba(0, 13, 51, 0.05) 1px, transparent 0);
+            background-size: 32px 32px;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-container selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-[#000d33]/80 backdrop-blur-md shadow-[0_20px_40px_rgba(0,13,51,0.06)]">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
+<div class="text-2xl font-black tracking-tighter text-[#000d33] dark:text-white font-headline">
+                E.M. Harris
+            </div>
+<div class="hidden md:flex items-center space-x-10">
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors font-headline tracking-tight font-bold text-sm uppercase" href="#">Home</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors font-headline tracking-tight font-bold text-sm uppercase" href="#">About</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors font-headline tracking-tight font-bold text-sm uppercase" href="#">Projects</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors font-headline tracking-tight font-bold text-sm uppercase" href="#">News</a>
+<a class="text-[#000d33] dark:text-white border-b-2 border-[#002060] pb-1 font-headline tracking-tight font-bold text-sm uppercase" href="#">Contact</a>
+</div>
+<button class="bg-primary-container text-on-primary px-8 py-3 font-headline font-bold text-xs uppercase tracking-widest scale-95 active:scale-90 transition-transform hover:opacity-90">
+                Get a Quote
+            </button>
+</div>
+</nav>
+<main class="pt-32 min-h-screen">
+<!-- Hero Section -->
+<section class="px-12 mb-24 max-w-[1920px] mx-auto grid md:grid-cols-12 gap-12 items-end">
+<div class="md:col-span-7">
+<span class="text-primary-container font-headline font-bold text-xs uppercase tracking-[0.2em] block mb-4">Inquiry &amp; Collaboration</span>
+<h1 class="text-6xl md:text-8xl font-black font-headline tracking-tighter text-primary leading-none">
+                    Building the<br/>Connection.
+                </h1>
+</div>
+<div class="md:col-span-5 pb-4">
+<p class="text-secondary text-lg max-w-md leading-relaxed">
+                    From historic renovations to modern skyline additions, our door is always open to visionaries. Let’s discuss your next project in St. Louis and beyond.
+                </p>
+</div>
+</section>
+<!-- Main Content Area: Bento-inspired Layout -->
+<section class="px-12 mb-32 max-w-[1920px] mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Contact Form Card -->
+<div class="md:col-span-7 bg-surface-container-low p-12 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-blueprint -mr-20 -mt-20 opacity-20 pointer-events-none"></div>
+<h2 class="text-3xl font-headline font-bold text-primary mb-12">Submit an Inquiry</h2>
+<form action="#" class="space-y-10">
+<div class="grid md:grid-cols-2 gap-10">
+<div class="relative">
+<label class="text-[10px] uppercase tracking-widest text-outline font-bold block mb-2">Full Name</label>
+<input class="w-full bg-transparent border-b border-outline-variant/30 py-2 focus:border-primary focus:ring-0 transition-colors outline-none" placeholder="Enter your name" type="text"/>
+</div>
+<div class="relative">
+<label class="text-[10px] uppercase tracking-widest text-outline font-bold block mb-2">Email Address</label>
+<input class="w-full bg-transparent border-b border-outline-variant/30 py-2 focus:border-primary focus:ring-0 transition-colors outline-none" placeholder="email@example.com" type="email"/>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-10">
+<div class="relative">
+<label class="text-[10px] uppercase tracking-widest text-outline font-bold block mb-2">Phone</label>
+<input class="w-full bg-transparent border-b border-outline-variant/30 py-2 focus:border-primary focus:ring-0 transition-colors outline-none" placeholder="+1 (314) 000-0000" type="tel"/>
+</div>
+<div class="relative">
+<label class="text-[10px] uppercase tracking-widest text-outline font-bold block mb-2">Interest</label>
+<select class="w-full bg-transparent border-b border-outline-variant/30 py-2 focus:border-primary focus:ring-0 transition-colors outline-none appearance-none">
+<option>Commercial Development</option>
+<option>Historic Preservation</option>
+<option>New Construction</option>
+<option>General Inquiry</option>
+</select>
+</div>
+</div>
+<div class="relative">
+<label class="text-[10px] uppercase tracking-widest text-outline font-bold block mb-2">Message</label>
+<textarea class="w-full bg-transparent border-b border-outline-variant/30 py-2 focus:border-primary focus:ring-0 transition-colors outline-none resize-none" placeholder="Tell us about your project or question..." rows="4"></textarea>
+</div>
+<button class="group flex items-center gap-4 bg-primary text-on-primary px-10 py-5 font-headline font-bold text-sm uppercase tracking-widest hover:bg-primary-container transition-all shadow-xl shadow-primary/10" type="submit">
+                            Send Message
+                            <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</form>
+</div>
+<!-- Info & Map Column -->
+<div class="md:col-span-5 flex flex-col gap-8">
+<!-- Address Card -->
+<div class="bg-primary text-on-primary p-12 flex flex-col justify-between min-h-[320px]">
+<div>
+<span class="text-on-primary-container font-headline font-bold text-xs uppercase tracking-[0.2em] block mb-6">Headquarters</span>
+<h3 class="text-4xl font-headline font-bold mb-4 tracking-tight">St. Louis, MO</h3>
+<p class="text-on-primary-container/80 text-lg leading-relaxed max-w-[240px]">
+                                1900 Olive Street<br/>
+                                St. Louis, Missouri 63103
+                            </p>
+</div>
+<div class="flex flex-col gap-4 mt-8">
+<a class="text-2xl font-headline font-bold hover:text-on-primary-container transition-colors" href="tel:3144364426">314.436.4426</a>
+<div class="flex gap-4">
+<div class="w-10 h-10 border border-on-primary-container/30 flex items-center justify-center hover:bg-on-primary-container/10 cursor-pointer transition-colors">
+<span class="material-symbols-outlined text-sm">mail</span>
+</div>
+<div class="w-10 h-10 border border-on-primary-container/30 flex items-center justify-center hover:bg-on-primary-container/10 cursor-pointer transition-colors">
+<span class="material-symbols-outlined text-sm">share</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Placeholder / Map -->
+<div class="flex-grow bg-surface-container-highest relative min-h-[300px] overflow-hidden group">
+<img class="w-full h-full object-cover grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-700" data-alt="Stylized architectural map of downtown St. Louis showing precise urban planning grid in clean lines and professional tones" data-location="St. Louis, MO" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBITPv6_544jfTKM3IewvGLtLmI5uD_Wx4o-OEmjJfZLX6oNTi8pm99g_eKm7dOKYxB3N6CSTHVY23xxrnaWS7d98i970taxZ7HKIcejuYixkZBxe_IyKtDrT7P7x7QspSJ7IjOKaF9z3t-rGA6cm1p3JeKOo8BalptfYBLhIWPODQ2vrUfkE7FHQ5WpMJZY7Cjflt442idZ7E3hy7F8m_h1XL6vdvr2_v_01RcPAvhTiZLwvR6g06-I1Ou49yzb_OA8pX2WxIAWhE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent pointer-events-none"></div>
+<div class="absolute bottom-8 left-8">
+<button class="bg-white text-primary px-6 py-3 font-headline font-bold text-[10px] uppercase tracking-widest shadow-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-xs">location_on</span>
+                                Get Directions
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Asymmetric Detail Section -->
+<section class="px-12 py-32 bg-white relative overflow-hidden">
+<div class="max-w-[1920px] mx-auto grid md:grid-cols-2 gap-24 items-center">
+<div class="relative order-2 md:order-1">
+<div class="aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="High-end modern office interior with exposed brick, steel beams, and architectural drafting tables in soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBL7YLK7WGMswQWlL-hjUJ_-TBqQnqsXkFX0GlL9g2GKyFFrnzCWmkY9gChTZUmGlRwVVdoOOpLrzULS6z-RTFFlYRLR8TfedKxyZhIdi9cw0U4RuaZS_PPlFFEnwQrdQ_JF6PXHXrAVnSxfrvU60NKTQ42KI3WgbvBEbvVa_P1NoEYunQfHJv_eFESw5AAWlX1DRz-HdO4ErpIFoX_CJek8Tfn3g42SVjK5FWnPxUyhuxel8JUIxRE6ltzSFJDKA42NlRSOIlCPtY"/>
+</div>
+<div class="absolute -bottom-8 -right-8 w-64 h-64 bg-primary/5 -z-10"></div>
+</div>
+<div class="order-1 md:order-2">
+<h2 class="text-5xl font-headline font-bold text-primary mb-8 tracking-tighter">Established Integrity.</h2>
+<p class="text-secondary text-lg leading-relaxed mb-12">
+                        For over four decades, E.M. Harris has been a cornerstone of the St. Louis construction landscape. We believe that communication is the blueprint of every successful build. Whether you're a developer, architect, or community partner, we invite you to start a dialogue that builds the future.
+                    </p>
+<div class="grid grid-cols-2 gap-12 border-t border-outline-variant/20 pt-12">
+<div>
+<h4 class="text-primary font-headline font-black text-4xl mb-2">40+</h4>
+<p class="text-outline uppercase text-[10px] font-bold tracking-[0.2em]">Years of Trust</p>
+</div>
+<div>
+<h4 class="text-primary font-headline font-black text-4xl mb-2">500+</h4>
+<p class="text-outline uppercase text-[10px] font-bold tracking-[0.2em]">Completed Projects</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#fbf9f8] dark:bg-[#000d33] w-full border-t border-[#e4e2e2]/30">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full max-w-[1920px] mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="text-lg font-bold text-[#000d33] dark:text-white font-headline">E.M. Harris Construction Company</div>
+<div class="text-slate-500 dark:text-slate-400 font-['Public_Sans'] text-xs tracking-[0.05em] uppercase mt-2">©2025 E.M. Harris Construction Company. All rights reserved.</div>
+</div>
+<div class="flex flex-wrap justify-center gap-8 items-center">
+<a class="text-slate-500 hover:underline decoration-[#002060] underline-offset-4 font-['Public_Sans'] text-xs tracking-[0.05em] uppercase transition-opacity opacity-80 hover:opacity-100" href="tel:3144364426">314.436.4426</a>
+<a class="text-slate-500 hover:underline decoration-[#002060] underline-offset-4 font-['Public_Sans'] text-xs tracking-[0.05em] uppercase transition-opacity opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="text-slate-500 hover:underline decoration-[#002060] underline-offset-4 font-['Public_Sans'] text-xs tracking-[0.05em] uppercase transition-opacity opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="text-slate-500 hover:underline decoration-[#002060] underline-offset-4 font-['Public_Sans'] text-xs tracking-[0.05em] uppercase transition-opacity opacity-80 hover:opacity-100 flex items-center gap-2" href="#">
+                    LinkedIn
+                    <span class="material-symbols-outlined text-xs">north_east</span>
+</a>
+</div>
+</div>
+</footer>
+</body></html>

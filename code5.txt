@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About | E.M. Harris Construction Company</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700;800;900&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-tint": "#455b9d",
+                        "on-tertiary-container": "#f8504f",
+                        "error": "#ba1a1a",
+                        "background": "#fbf9f8",
+                        "secondary-container": "#e1dfdf",
+                        "surface-dim": "#dbdad9",
+                        "secondary-fixed": "#e4e2e2",
+                        "on-surface": "#1b1c1c",
+                        "tertiary": "#2b0002",
+                        "secondary": "#5e5e5e",
+                        "surface-container": "#efeded",
+                        "on-tertiary-fixed-variant": "#930015",
+                        "on-tertiary-fixed": "#410004",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "inverse-on-surface": "#f2f0f0",
+                        "on-primary-fixed": "#00174b",
+                        "on-surface-variant": "#444650",
+                        "on-secondary-container": "#626262",
+                        "on-primary": "#ffffff",
+                        "on-primary-container": "#748acf",
+                        "surface-container-highest": "#e4e2e2",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-low": "#f5f3f3",
+                        "primary-container": "#002060",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-bright": "#fbf9f8",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#464747",
+                        "inverse-primary": "#b4c5ff",
+                        "tertiary-container": "#530007",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "inverse-surface": "#303031",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#2c4383",
+                        "on-background": "#1b1c1c",
+                        "surface-container-high": "#e9e8e7",
+                        "outline-variant": "#c5c6d2",
+                        "primary": "#000d33",
+                        "surface": "#fbf9f8",
+                        "on-secondary-fixed": "#1b1c1c",
+                        "primary-fixed": "#dbe1ff",
+                        "tertiary-fixed-dim": "#ffb3ae",
+                        "on-secondary": "#ffffff",
+                        "outline": "#757681",
+                        "surface-variant": "#e4e2e2",
+                        "tertiary-fixed": "#ffdad7",
+                        "error-container": "#ffdad6"
+                    },
+                    fontFamily: {
+                        "headline": ["Public Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1.5rem;
+        }
+        .glass-nav {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-[#000d33]/80 backdrop-blur-md shadow-[0_20px_40px_rgba(0,13,51,0.06)]">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
+<a class="text-2xl font-black tracking-tighter text-[#000d33] dark:text-white font-headline" href="#">E.M. Harris</a>
+<div class="hidden md:flex items-center gap-10">
+<a class="font-headline tracking-tight font-bold text-sm uppercase text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors" href="#">Home</a>
+<a class="font-headline tracking-tight font-bold text-sm uppercase text-[#000d33] dark:text-white border-b-2 border-[#002060] pb-1" href="#">About</a>
+<a class="font-headline tracking-tight font-bold text-sm uppercase text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors" href="#">Projects</a>
+<a class="font-headline tracking-tight font-bold text-sm uppercase text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors" href="#">News</a>
+<a class="font-headline tracking-tight font-bold text-sm uppercase text-slate-500 dark:text-slate-400 hover:text-[#000d33] transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2.5 rounded-md font-headline text-xs font-bold uppercase tracking-widest scale-95 active:scale-90 transition-transform shadow-lg">
+                Get a Quote
+            </button>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="px-12 mb-24">
+<div class="max-w-[1920px] mx-auto editorial-grid">
+<div class="col-span-12 md:col-span-7 mb-12 md:mb-0">
+<span class="font-label text-xs font-bold uppercase tracking-[0.2em] text-on-primary-container mb-6 block">Founded 1989 • St. Louis, MO</span>
+<h1 class="font-headline text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] text-primary mb-8">
+                        Preserving the Past, <br/>Building the Future.
+                    </h1>
+<p class="font-body text-xl text-on-surface-variant leading-relaxed max-w-xl">
+                        A legacy forged in the heart of the Midwest. For over three decades, E.M. Harris has specialized in navigating the complexities of multi-family developments and historic revitalizations.
+                    </p>
+</div>
+<div class="col-span-12 md:col-span-5 relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Modern architectural detail of a St. Louis historic brick building blending with contemporary glass and steel elements during sunset" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZv2pD-VwD3T7LP3gZeppt0lk2g9r4q0GHlbm2ZoFk25bVF_seU1EFAXkXaZF4iFfOyDe9XhvjeAMGzMUlHq9cbJ3qgu_XF3dYlbCO0q6QPCB8OvKk6v5h25Ie65PhXokO6_dLdXCm08fjhVUhealiOEdKXrsKBAp4HEkLWxGQd7DE5vh3dvq3ZuaJk51DtF9cduchCQOOw-4MGEwd6vzyZjY5pUVYuj80laTcJ_IWDoRypcsbm6-24DAZ0Udy4IabBShHhMQcotE"/>
+</div>
+</div>
+</section>
+<!-- Narrative Section: The St. Louis Story -->
+<section class="bg-surface-container-low py-24 px-12">
+<div class="max-w-[1920px] mx-auto editorial-grid items-center">
+<div class="col-span-12 md:col-span-5 mb-16 md:mb-0">
+<h2 class="font-headline text-4xl font-extrabold tracking-tight text-primary mb-6">A Trusted Partner for Complex Funding</h2>
+<p class="font-body text-lg text-secondary mb-8 leading-relaxed">
+                        Since our inception in 1989, we have established ourselves as the premier choice for developers utilizing Low-Income Housing Tax Credits (LIHTC) and historic tax credits. We don't just build structures; we facilitate community growth by mastering the administrative and financial rigor required for publicly funded projects.
+                    </p>
+<div class="space-y-4">
+<div class="flex items-center gap-4 group">
+<span class="w-12 h-px bg-primary-container group-hover:w-16 transition-all"></span>
+<span class="font-label text-xs uppercase tracking-widest font-bold">Expert LIHTC Management</span>
+</div>
+<div class="flex items-center gap-4 group">
+<span class="w-12 h-px bg-primary-container group-hover:w-16 transition-all"></span>
+<span class="font-label text-xs uppercase tracking-widest font-bold">Historic Preservation Specialists</span>
+</div>
+<div class="flex items-center gap-4 group">
+<span class="w-12 h-px bg-primary-container group-hover:w-16 transition-all"></span>
+<span class="font-label text-xs uppercase tracking-widest font-bold">Rigorous HUD Compliance</span>
+</div>
+</div>
+</div>
+<div class="col-span-12 md:col-span-6 md:col-start-7 bg-surface-container-lowest p-12 shadow-[0_20px_40px_rgba(0,13,51,0.04)]">
+<h3 class="font-headline text-sm uppercase tracking-[0.1em] font-black text-tertiary mb-8">The Reliability Standard</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div>
+<span class="font-headline text-4xl font-black text-primary block mb-2">35+</span>
+<span class="font-label text-xs text-on-surface-variant uppercase tracking-tighter">Years of St. Louis Operations</span>
+</div>
+<div>
+<span class="font-headline text-4xl font-black text-primary block mb-2">100%</span>
+<span class="font-label text-xs text-on-surface-variant uppercase tracking-tighter">On-Schedule Delivery Rate</span>
+</div>
+<div class="col-span-full">
+<p class="font-body text-sm text-secondary italic border-l-2 border-primary-fixed-dim pl-6 py-2">
+                                "Our ability to manage tight budgets isn't just a business goal—it's a requirement of the tax-credit landscape. We pride ourselves on transparent, predictable delivery."
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Timeline Section -->
+<section class="py-24 px-12 max-w-[1920px] mx-auto">
+<h2 class="font-headline text-sm font-black uppercase tracking-[0.3em] text-center mb-16">Our Evolution</h2>
+<div class="relative">
+<!-- Central Line -->
+<div class="absolute left-1/2 top-0 bottom-0 w-px bg-secondary-fixed hidden md:block transform -translate-x-1/2"></div>
+<!-- 1989 -->
+<div class="relative editorial-grid mb-32">
+<div class="col-span-12 md:col-span-5 text-right flex flex-col justify-center items-end">
+<span class="font-headline text-4xl font-black text-primary-container mb-2">1989</span>
+<h4 class="font-headline text-xl font-bold mb-2">The Foundation</h4>
+<p class="font-body text-sm text-on-surface-variant max-w-xs">E.M. Harris Construction Company opens its doors in St. Louis, focusing on residential excellence and structural integrity.</p>
+</div>
+<div class="hidden md:flex col-span-2 justify-center items-center z-10">
+<div class="w-4 h-4 rounded-full bg-primary ring-8 ring-surface"></div>
+</div>
+<div class="hidden md:block col-span-5 h-48 bg-surface-container-low rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-60" data-alt="Vintage photograph-style shot of a construction blueprint and antique surveying equipment on a wooden desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVro9fOXr4-mYS6T2cZrF22Tcxohby1D5lRndwB_7Wn1q9RVpLJlw2wg3uKOc2fh_uIZPAy1gGoiHE4pGKqtoBwseu8Lh5NX8O8CnRGqbdIhLl2tFbz2NRg6ynwPqIMc8nhDGWEIXBsNK6dD9LGI9dwjez9uAQP6kDXAQTXt4CPGNVQFa-NCczTEViYVvFbCt76DRKwUwBqRCcDsQmrIR6u0UAs1tz-H77IDRMe3fnSOVxCTFjKVqn8B-ZFF_svFcej47AAR_1wQ8"/>
+</div>
+</div>
+<!-- 2005 -->
+<div class="relative editorial-grid mb-32">
+<div class="hidden md:block col-span-5 h-48 bg-surface-container-low rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-60" data-alt="Close up of a modern brick multi-family housing development in a historic urban neighborhood under clear blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIvTieRuYm8PEfawUPUUWSb9iftfEQqsCDQQ3ccefegoc1xI8dBS3KLLSWebQDxjr0pg6L1YLt_9pCIgWwxDx0iaj5PvoJab4_lBABIWYQGTOF1zyeajphV16FHReIcukU7qzW0RdTlbzDIXvt2awCmOr3roYgjC47yFbjweFt2NADa63QGmZfoX47mZRQZaU0bcFo_fKGc1ry8FBXVG8RGZyKFcLVBFwcAsGPyXN_VvJSsd26GVqLNLa5iEDiBb7JU0VwdK7OZWg"/>
+</div>
+<div class="hidden md:flex col-span-2 justify-center items-center z-10">
+<div class="w-4 h-4 rounded-full bg-primary ring-8 ring-surface"></div>
+</div>
+<div class="col-span-12 md:col-span-5 text-left flex flex-col justify-center items-start">
+<span class="font-headline text-4xl font-black text-primary-container mb-2">2005</span>
+<h4 class="font-headline text-xl font-bold mb-2">Tax Credit Expansion</h4>
+<p class="font-body text-sm text-on-surface-variant max-w-xs">Deepening our expertise in LIHTC and historic rehabilitation, becoming a key partner for Missouri's affordable housing growth.</p>
+</div>
+</div>
+<!-- Present -->
+<div class="relative editorial-grid">
+<div class="col-span-12 md:col-span-5 text-right flex flex-col justify-center items-end">
+<span class="font-headline text-4xl font-black text-primary-container mb-2">Today</span>
+<h4 class="font-headline text-xl font-bold mb-2">Leading the Future</h4>
+<p class="font-body text-sm text-on-surface-variant max-w-xs">A multi-million dollar portfolio of successful developments and a reputation as the region's most disciplined construction manager.</p>
+</div>
+<div class="hidden md:flex col-span-2 justify-center items-center z-10">
+<div class="w-4 h-4 rounded-full bg-primary ring-8 ring-surface"></div>
+</div>
+<div class="hidden md:block col-span-5 h-48 bg-surface-container-low rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-60" data-alt="High-angle view of a bustling construction site with cranes and organized materials, symbolizing modern efficiency and growth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkTaR6w6yGMJX6y3TV15Sxqw9koXCFTM6XHsbIEyHHHfMdDtb2s8o-ipo1DUv_uHy7SVsfnu79DP9dq-3kymamGIUajX92SAWPyhXCbWXUhgRamuJnfAAMpAcOqIHJ4lci9Jor4PLg3RgnmuVucwa6nBSVv4N_H5ezO8rXfFcrTHG0-v0yDOVu27f_FE49nYHpCgSH8mTUqnN5H5FYN1Eg_z0F8po1S2Y5RI0ymd6vPrtciEldXQy7FSQ7hXzD5FNbMkJhd38l5VE"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Discipline & Efficiency Section -->
+<section class="py-24 px-12 bg-primary text-on-primary">
+<div class="max-w-[1920px] mx-auto editorial-grid gap-y-16">
+<div class="col-span-12 md:col-span-8">
+<h2 class="font-headline text-5xl font-black tracking-tight leading-none mb-8">The Discipline of the Tight Budget.</h2>
+<p class="font-body text-lg text-primary-fixed-dim max-w-2xl leading-relaxed">
+                        In the world of tax-credit developments, there is no margin for error. Schedules are fixed, budgets are locked, and compliance is non-negotiable. Our management systems are engineered to eliminate waste and prioritize architectural value.
+                    </p>
+</div>
+<div class="col-span-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="p-8 border border-white/10 rounded-lg">
+<span class="material-symbols-outlined text-4xl mb-6" style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
+<h5 class="font-headline font-bold mb-3">Pre-Construction Rigor</h5>
+<p class="text-sm text-slate-300">Detailed value engineering that preserves design intent while honoring strict capital constraints.</p>
+</div>
+<div class="p-8 border border-white/10 rounded-lg">
+<span class="material-symbols-outlined text-4xl mb-6" style="font-variation-settings: 'FILL' 1;">calendar_today</span>
+<h5 class="font-headline font-bold mb-3">Critical Path Mastery</h5>
+<p class="text-sm text-slate-300">Phase-by-phase scheduling that ensures tax credit deadlines are met with absolute certainty.</p>
+</div>
+<div class="p-8 border border-white/10 rounded-lg">
+<span class="material-symbols-outlined text-4xl mb-6" style="font-variation-settings: 'FILL' 1;">gavel</span>
+<h5 class="font-headline font-bold mb-3">Compliance Leadership</h5>
+<p class="text-sm text-slate-300">Rigorous documentation and site management for HUD, ADA, and state-specific regulatory standards.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-32 px-12 text-center">
+<div class="max-w-3xl mx-auto">
+<h3 class="font-headline text-3xl font-bold text-primary mb-6">Ready to Build with Precision?</h3>
+<p class="font-body text-on-surface-variant mb-10">Let's discuss how our experience in St. Louis and expertise in public-funded projects can bring your vision to life.</p>
+<div class="flex flex-col md:flex-row justify-center gap-6">
+<button class="bg-primary text-on-primary px-10 py-4 font-headline text-sm font-bold uppercase tracking-widest rounded-md hover:bg-primary-container transition-all">View Our Projects</button>
+<button class="bg-surface-container-high text-primary px-10 py-4 font-headline text-sm font-bold uppercase tracking-widest rounded-md hover:bg-surface-container-highest transition-all">Contact Our Team</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#fbf9f8] dark:bg-[#000d33] w-full border-t border-[#e4e2e2]/30">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full max-w-[1920px] mx-auto">
+<div class="mb-8 md:mb-0">
+<span class="text-lg font-bold text-[#000d33] dark:text-white font-headline">E.M. Harris</span>
+<p class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 mt-2">©2025 E.M. Harris Construction Company. All rights reserved.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8 items-center">
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-[#000d33] dark:text-slate-300 opacity-80 hover:opacity-100 hover:underline decoration-[#002060] underline-offset-4 transition-all" href="tel:314.436.4426">314.436.4426</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-[#000d33] dark:text-slate-300 opacity-80 hover:opacity-100 hover:underline decoration-[#002060] underline-offset-4 transition-all" href="#">Privacy Policy</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-[#000d33] dark:text-slate-300 opacity-80 hover:opacity-100 hover:underline decoration-[#002060] underline-offset-4 transition-all" href="#">Terms of Service</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-[#000d33] dark:text-slate-300 opacity-80 hover:opacity-100 hover:underline decoration-[#002060] underline-offset-4 transition-all" href="#">LinkedIn</a>
+</div>
+</div>
+</footer>
+</body></html>

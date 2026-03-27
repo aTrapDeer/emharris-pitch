@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>News &amp; Updates | E.M. Harris Construction Company</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700;800;900&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-tint": "#455b9d",
+                        "on-tertiary-container": "#f8504f",
+                        "error": "#ba1a1a",
+                        "background": "#fbf9f8",
+                        "secondary-container": "#e1dfdf",
+                        "surface-dim": "#dbdad9",
+                        "secondary-fixed": "#e4e2e2",
+                        "on-surface": "#1b1c1c",
+                        "tertiary": "#2b0002",
+                        "secondary": "#5e5e5e",
+                        "surface-container": "#efeded",
+                        "on-tertiary-fixed-variant": "#930015",
+                        "on-tertiary-fixed": "#410004",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "inverse-on-surface": "#f2f0f0",
+                        "on-primary-fixed": "#00174b",
+                        "on-surface-variant": "#444650",
+                        "on-secondary-container": "#626262",
+                        "on-primary": "#ffffff",
+                        "on-primary-container": "#748acf",
+                        "surface-container-highest": "#e4e2e2",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-low": "#f5f3f3",
+                        "primary-container": "#002060",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-bright": "#fbf9f8",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#464747",
+                        "inverse-primary": "#b4c5ff",
+                        "tertiary-container": "#530007",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "inverse-surface": "#303031",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#2c4383",
+                        "on-background": "#1b1c1c",
+                        "surface-container-high": "#e9e8e7",
+                        "outline-variant": "#c5c6d2",
+                        "primary": "#000d33",
+                        "surface": "#fbf9f8",
+                        "on-secondary-fixed": "#1b1c1c",
+                        "primary-fixed": "#dbe1ff",
+                        "tertiary-fixed-dim": "#ffb3ae",
+                        "on-secondary": "#ffffff",
+                        "outline": "#757681",
+                        "surface-variant": "#e4e2e2",
+                        "tertiary-fixed": "#ffdad7",
+                        "error-container": "#ffdad6"
+                    },
+                    fontFamily: {
+                        "headline": ["Public Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+        }
+        body { font-family: 'Inter', sans-serif; background-color: #fbf9f8; color: #1b1c1c; }
+        h1, h2, h3, .brand-font { font-family: 'Public Sans', sans-serif; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-fixed selection:text-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-[#000d33]/80 backdrop-blur-md shadow-[0_20px_40px_rgba(0,13,51,0.06)]">
+<div class="flex justify-between items-center px-6 md:px-12 py-6 max-w-[1920px] mx-auto">
+<a class="text-2xl font-black tracking-tighter text-[#000d33] dark:text-white uppercase" href="#">E.M. Harris</a>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-slate-500 hover:text-[#000d33] transition-colors font-['Public_Sans'] tracking-tight font-bold text-sm uppercase" href="#">Home</a>
+<a class="text-slate-500 hover:text-[#000d33] transition-colors font-['Public_Sans'] tracking-tight font-bold text-sm uppercase" href="#">About</a>
+<a class="text-slate-500 hover:text-[#000d33] transition-colors font-['Public_Sans'] tracking-tight font-bold text-sm uppercase" href="#">Projects</a>
+<a class="text-[#000d33] dark:text-white border-b-2 border-[#002060] pb-1 font-['Public_Sans'] tracking-tight font-bold text-sm uppercase" href="#">News</a>
+<a class="text-slate-500 hover:text-[#000d33] transition-colors font-['Public_Sans'] tracking-tight font-bold text-sm uppercase" href="#">Contact</a>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2 rounded-lg text-sm font-bold uppercase tracking-wider scale-95 active:scale-90 transition-transform">Get a Quote</button>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-32 pb-24">
+<!-- Hero Header -->
+<header class="px-6 md:px-12 max-w-[1440px] mx-auto mb-20">
+<div class="flex flex-col md:flex-row justify-between items-end gap-8">
+<div class="max-w-2xl">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-on-secondary-container mb-4 block">Company Journal</span>
+<h1 class="text-6xl md:text-8xl font-black tracking-tighter leading-[0.85] text-primary">
+                        BUILDING THE <br/>FUTURE.
+                    </h1>
+</div>
+<p class="text-secondary max-w-sm font-body text-sm leading-relaxed mb-2">
+                    Insights from the field, architectural milestones, and the preservation of our community's historic foundations.
+                </p>
+</div>
+</header>
+<!-- Featured News Bento Grid -->
+<section class="px-6 md:px-12 max-w-[1440px] mx-auto mb-24">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-4">
+<!-- Main Featured Post -->
+<article class="md:col-span-8 group relative overflow-hidden rounded-xl bg-surface-container-low">
+<div class="aspect-[16/9] overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Modern geometric skyscraper facade with reflective glass and deep blue architectural shadows during high noon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGV43X2sWmj4ktuSKSGidMji2BQfh43I-gDEfZghkBnpgZX2IoP0hBvyshNdrIhUOwY60TbC30gkgWlN0EhLyfrMlFLxNi1td4fRTn5qgolPXvrCMJyWESeSoCG33joA14wwZgo25JJiAzFnmFp2KZDRkAwBiu0IM5bHpKPssQdPIvDrT39nWlyvB4v197uu19ySQcGik0HQZ92gxPbcOkLB7EdARdwhUN4vdJQp3RMta6pOjuglYMpNVrb8XXZ_-uHQ6ArWBne4Y"/>
+</div>
+<div class="p-8 md:p-12">
+<div class="flex items-center gap-4 mb-6">
+<span class="bg-primary text-on-primary text-[10px] font-bold uppercase tracking-widest px-3 py-1">Project Milestone</span>
+<time class="text-xs text-secondary uppercase tracking-widest">October 24, 2024</time>
+</div>
+<h2 class="text-3xl md:text-5xl font-black tracking-tight text-primary mb-6 leading-tight max-w-2xl">
+                            Groundbreaking: The Heritage Plaza Revival Project
+                        </h2>
+<p class="text-on-surface-variant text-base leading-relaxed max-w-xl mb-8">
+                            We are proud to announce the commencement of our most ambitious restoration project to date, blending 19th-century masonry with 21st-century sustainability.
+                        </p>
+<a class="inline-flex items-center gap-2 group/link text-primary font-bold uppercase text-xs tracking-widest" href="#">
+                            Read the Story 
+                            <span class="material-symbols-outlined transition-transform group-hover/link:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- Side Post 1 -->
+<article class="md:col-span-4 bg-surface-container-high p-8 flex flex-col justify-between rounded-xl">
+<div>
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-tertiary-fixed-variant mb-4 block">Community</span>
+<h3 class="text-2xl font-black tracking-tight text-primary mb-4">
+                            Annual Construction Trades Scholarship
+                        </h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                            Supporting the next generation of master builders through our 2025 vocational grants.
+                        </p>
+</div>
+<img class="rounded-lg h-40 object-cover mb-6" data-alt="Close up of carpenter hands working with premium oak wood in a sun-drenched industrial workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB_JQ8LYzOJz60ZbEqMJJIlEWW-o9A66FgsODJyYaprJLz-i1rmw05PByxF5e7a6-ynyqlYDF29-fxS4BwO-zdB_GmQERzZCayYQNS2Dqfb57lZDLkieVevdy7oJEeiLxF4RlHAX0xGYTgITbjuILVG2UdYB__zADBCTb0oVQnefqUoy-ofvxH-NXrPJPquJAhX3IovBQjjZVnEucwwCAX2x3sXcoLERGWDGM7YUzQlZ7SpP38i85qZw1GFUqW8zOhmy8ehqv-kOE"/>
+<a class="text-primary font-bold uppercase text-xs tracking-widest underline decoration-2 underline-offset-8" href="#">Details</a>
+</article>
+<!-- Side Post 2 -->
+<article class="md:col-span-4 bg-primary text-on-primary p-8 rounded-xl flex flex-col justify-center">
+<span class="material-symbols-outlined text-4xl mb-6" data-weight="fill">verified</span>
+<h3 class="text-2xl font-bold tracking-tight mb-4">
+                        ISO 14001 Certification Achieved
+                    </h3>
+<p class="text-on-primary/70 text-sm leading-relaxed mb-8">
+                        Recognizing our commitment to sustainable site management and environmental stewardship across all job sites.
+                    </p>
+<time class="text-[10px] font-bold uppercase tracking-widest text-on-primary/40">October 12, 2024</time>
+</article>
+<!-- Side Post 3 -->
+<article class="md:col-span-8 bg-surface-container-low rounded-xl flex flex-col md:flex-row overflow-hidden">
+<div class="md:w-1/2 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Low angle view of large yellow construction crane against a clear cobalt blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDSr35xFntnoX8lCbSv7oHJulgxGzVJVmZU5xPqrVlYYRL1phk8XnSq0wT9BwM9NkAOhil7Uy63uqL4xuyKUHCQ6qvmkGzhKNpt6yY3qBAu9XkXZAcMeIeCHXyBJhhac4WMRWDpKAK6_ATVhndmIDGeu28YAYhskRpfHyxAOpqSHOvVzzhM8icBUHrYQydxyhmfrDyLLRACa0SnrpIkO3NxZCdKzc_KgAhaiz2qSinCi0JuZYkWiMI7laUW7WF-OKGssahHAwrL-8"/>
+</div>
+<div class="md:w-1/2 p-8 flex flex-col justify-center">
+<span class="text-[10px] font-bold uppercase tracking-widest text-secondary mb-4 block">Field Notes</span>
+<h3 class="text-2xl font-black tracking-tight text-primary mb-4 leading-snug">
+                            The Evolution of Structural Steel in High-Rise Design
+                        </h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                            Technical Director James Harris discusses the latest shifts in reinforced skeletal structures.
+                        </p>
+<a class="text-primary font-bold uppercase text-xs tracking-widest group/btn inline-flex items-center gap-2" href="#">
+                            Listen to Podcast <span class="material-symbols-outlined">play_circle</span>
+</a>
+</div>
+</article>
+</div>
+</section>
+<!-- Newsletter Tonal Block -->
+<section class="bg-surface-container py-24">
+<div class="px-6 md:px-12 max-w-[1440px] mx-auto text-center">
+<div class="max-w-xl mx-auto">
+<h2 class="text-4xl font-black tracking-tighter text-primary mb-4">Stay Informed.</h2>
+<p class="text-secondary text-sm mb-10 leading-relaxed">
+                        Weekly updates on industrial shifts, internal growth, and the projects shaping our skylines.
+                    </p>
+<form class="flex flex-col md:flex-row gap-4">
+<input class="flex-grow bg-transparent border-none border-b border-outline-variant focus:border-primary focus:ring-0 text-primary px-0 pb-2 text-sm" placeholder="Professional Email Address" type="email"/>
+<button class="bg-primary text-on-primary px-10 py-3 font-bold uppercase text-xs tracking-widest hover:bg-primary-container transition-colors">Join the Network</button>
+</form>
+</div>
+</div>
+</section>
+<!-- Past Milestones Timeline -->
+<section class="px-6 md:px-12 max-w-[1440px] mx-auto py-24">
+<div class="mb-16">
+<h2 class="text-3xl font-black tracking-tight text-primary uppercase">Recent Milestones</h2>
+<div class="h-1 w-20 bg-primary mt-4"></div>
+</div>
+<div class="space-y-16">
+<!-- Node 1 -->
+<div class="flex flex-col md:flex-row gap-8 items-start relative">
+<div class="hidden md:block absolute left-[12.5rem] top-0 bottom-[-4rem] w-px bg-secondary-fixed"></div>
+<div class="w-48 pt-1">
+<time class="text-xl font-black text-primary tracking-tighter">SEP 2024</time>
+</div>
+<div class="relative z-10 w-4 h-4 rounded-full bg-primary mt-3 hidden md:block"></div>
+<div class="flex-grow">
+<h4 class="text-lg font-bold text-primary mb-2">Safety Excellence Award</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed max-w-2xl">
+                            E.M. Harris was recognized for surpassing 500,000 work hours without a recordable incident, maintaining our industry-leading safety record.
+                        </p>
+</div>
+</div>
+<!-- Node 2 -->
+<div class="flex flex-col md:flex-row gap-8 items-start relative">
+<div class="hidden md:block absolute left-[12.5rem] top-0 bottom-[-4rem] w-px bg-secondary-fixed"></div>
+<div class="w-48 pt-1">
+<time class="text-xl font-black text-primary tracking-tighter">AUG 2024</time>
+</div>
+<div class="relative z-10 w-4 h-4 rounded-full bg-secondary-fixed mt-3 hidden md:block"></div>
+<div class="flex-grow">
+<h4 class="text-lg font-bold text-primary mb-2">Parkview Lofts Completion</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed max-w-2xl">
+                            Successful handover of the 240-unit residential complex. The project was delivered 3 weeks ahead of schedule and under the original budget.
+                        </p>
+</div>
+</div>
+<!-- Node 3 -->
+<div class="flex flex-col md:flex-row gap-8 items-start relative">
+<div class="w-48 pt-1">
+<time class="text-xl font-black text-primary tracking-tighter">JUL 2024</time>
+</div>
+<div class="relative z-10 w-4 h-4 rounded-full bg-secondary-fixed mt-3 hidden md:block"></div>
+<div class="flex-grow">
+<h4 class="text-lg font-bold text-primary mb-2">Historical Preservation Grant</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed max-w-2xl">
+                            Awarded the State Grant for the restoration of the Old Courthouse clock tower, a testament to our skill in heritage craftsmanship.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-[#e4e2e2]/30 bg-[#fbf9f8] dark:bg-[#000d33]">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full max-w-[1920px] mx-auto gap-8">
+<div class="flex flex-col items-center md:items-start gap-4">
+<span class="text-lg font-bold text-[#000d33] dark:text-white uppercase tracking-tighter">E.M. Harris</span>
+<p class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500">©2025 E.M. Harris Construction Company. All rights reserved.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="tel:314.436.4426">314.436.4426</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="font-['Public_Sans'] text-xs tracking-[0.05em] uppercase text-slate-500 hover:underline decoration-[#002060] underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">LinkedIn</a>
+</div>
+</div>
+</footer>
+</body></html>
