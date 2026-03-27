@@ -1504,27 +1504,27 @@ img {
 }
 
 @media (max-width: 720px) {
-  .logo-mark img {
-    width: 108px;
-  }
-
   .header-bar {
     grid-template-columns: 1fr;
     grid-template-areas:
-      "brand"
       "nav";
-    gap: 0.55rem;
-    padding: 0.55rem 0 0.6rem;
+    gap: 0.35rem;
+    padding: 0.4rem 0 0.45rem;
+  }
+
+  .header-brand {
+    display: none;
   }
 
   .site-nav {
     gap: 0.4rem;
+    padding-bottom: 0;
   }
 
   .nav-link {
     font-size: 0.68rem;
     letter-spacing: 0.1em;
-    padding: 0.4rem 0.58rem;
+    padding: 0.32rem 0.52rem;
   }
 
   .header-cta {
